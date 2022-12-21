@@ -77,7 +77,7 @@ int main()
 {
     for (int i = 0; i<=0xFFFF; i++)
     {
-        printBinary(i,16);
+        printBinary(i,16-1);
         printf("\n");
     }
     
